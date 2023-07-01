@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BOOK APPOINTMENT</title>
+<link rel="stylesheet" href="formstyle.css" type="text/css">
+<style>
+
+
+body{
+	
+    background-image: url("../sairam.jpg") no-repeat center fixed;     
+    background-size: cover;
+}
+
+
+div.main{
+	width:400px;
+	margin: 26px 400px 400px 600px;
+}
+h2{
+	text-align:center;
+	padding:20px;
+	font-family:sans-serif;
+}
+div.register{
+	background-color:rgba(79, 199, 255, 0.17);;
+	width:100%;
+	font-size:18px;
+	border-radius:10px;
+	border:5px solid rgba(255,255,255,0.3);
+	box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+	color:black;
+}
+form#register{
+	margin:40px;
+}
+
+.input input{
+	width:100%;
+	height:30px
+	
+}
+
+label{
+	font-family:sans-serif;
+	font-size:18px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+input[type=name]{
+	width:300px;
+	border:1px solid #ddd;
+	border-radius:3px;
+	outline:0;
+	padding:7px;
+	background-color: #fff;
+	box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* Style the submit button */
+.b button {
+
+  width:103%;
+  height:60%;
+  padding: 10px 60px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  border-radius:5px;
+  color: white;
+  font-size:20px;
+  
+  
+}
+
+.b button:hover {
+  background-color: royalblue;
+}
+
+.wrapper .title{
+line-height:80px;
+background-color:dodgerblue;
+border-radius:5px 5px 0 0;
+color:#fff;
+font-size:25px;
+font-weight:600;
+} 
+
+.link a{
+text-decoration:none;
+color:dodgerblue;
+
+
+
+</style>
+</head>
+<body>
+<div class="main">
+<div class="register">
+
+<div class="wrapper">
+<div class="title" align="center"><span>BOOK APPOINTMENT</span></div>
+
+<form id="register" action="C:\Users\shanm\Documents\HTML PROGRAMS\INTENSHIP SAIRAM\PROJECT SAIRAM\PATIENTPORTAL\patienthomepage.html" method="post">
+
+
+<div class="input">
+<label>Name</label><br>
+<input type="text" name="name" placeholder="Enter your Name" id="name" maxlength="25"  required>
+</div><br><br>
+
+<div class="input">
+<label>Age</label><br>
+<input type="number" name="age" placeholder="Enter your Age" id="age" required>
+</div><br><br>
+
+<div class="input">
+<label>Email Id</label><br>
+<input type="email" name="email" placeholder="Enter your Email_id" id="email" required>
+</div><br><br>
+
+<div class="input">
+<label>Problem</label><br>
+<textarea rows="5" cols="41" required></textarea>  
+</div><br><br>
+
+<div class="input">
+<label>Appointment Date</label><br>
+<input type="date" name="date" id="date" required>
+</div><br><br>
+
+<div class="input">
+<label>Mobile No</label><br>
+<input type="text" name="phone" placeholder="Enter your Mobile No" id="Phone" maxlength="10"  required>
+</div><br><br>
+
+
+
+<div class="b" align="center">
+<button type="submit" name="button" id="login" onclick="Booked_Successfully()">Book Appointment</button>
+</div>
+
+<!--
+<div class="link">
+<p align="center">Don't have Account?<a href="doctorregister.html" target="new">Sign Up</p></div>-->
+</form>
+</div>
+</div>
+<script>
+function Booked_Successfully(){
+alert("Booked Successfully");
+}
+
+</script>
+</body>
+</html>
+
+

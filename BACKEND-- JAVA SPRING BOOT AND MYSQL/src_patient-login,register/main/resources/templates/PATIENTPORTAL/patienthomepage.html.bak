@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>PATIENT PORTAL</title>
+<frameset rows="20%,80%">
+<frame src="C:\Users\shanm\Downloads\SPRING BOOT PROJECTS\revo-hospital-website-html-css-js-master\patientheaderdemoo2.html" name="f1">
+<frame src="C:\Users\shanm\Documents\HTML PROGRAMS\INTENSHIP SAIRAM\PROJECT SAIRAM\ADMINPORTAL\load more button\index.html" name="f2">
+</frameset>
+</head>
+</html>
