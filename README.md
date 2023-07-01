@@ -3,28 +3,28 @@ Our project is about creating a hospital management system using html, CSS, Java
 
 
 ADMIN MODULE:
-	Register, login
-	AdminHomePage,
+Register, login,
+AdminHomePage,
 
 	View, add, update, delete Doctor Records
 	View, add, update, delete Patient Records
 	View, add, update, delete Patient Appointments 
 
-	Logout.
+Logout.
 
 PATIENT MODULE:
-	Register, login.
-	PatientHomePage
+Register, login,
+PatientHomePage
 
 	Patient can book appointments
 	Patient can view all the Doctors in the VIVID Hospital
 
-	Logout.
+Logout.
 
 DOCTOR MODULE:
-	Register, Login
-	DoctorHomePage
+Register, Login
+DoctorHomePage
 
 	Doctor can view his Appointment and he can also update the appointment
 
-	Logout
+Logout
