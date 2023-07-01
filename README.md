@@ -28,3 +28,27 @@ DoctorHomePage
 	Doctor can view his Appointment and he can also update the appointment
 
 Logout
+
+
+
+HARDWARE/SOFTWARE DESIGNING
+
+HARDWARE DESIGN
+
+•	Computer System: A normal computer system with sufficient memory and may include a processor, a suitable amount of RAM, and ample storage capacity.
+
+•	Storage: Sufficient storage capacity is needed and a high-capacity hard disk drive (HDD) or solid-state drive (SSD) may be required.
+
+SOFTWARE DESIGN
+
+The software components for our project would involve various tools and technologies. Here are some essential elements:
+
+•	Notepad++ (HTML,CSS,JS)
+•	MySQL Workbench
+•	Spring Boot 4.1+
+•	Spring Framework 5.2.6
+•	Spring Data JPA (Hibernate)
+•	Thymeleaf
+•	Eclipse STS
+•	Maven
+•	Java 17
