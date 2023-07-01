@@ -22,7 +22,7 @@ PatientHomePage
 Logout.
 
 DOCTOR MODULE:
-Register, Login
+Register, Login,
 DoctorHomePage
 
 	Doctor can view his Appointment and he can also update the appointment
